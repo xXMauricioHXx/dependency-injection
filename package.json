@@ -1,0 +1,35 @@
+{
+  "name": "dependency-injection",
+  "version": "1.0.0",
+  "description": "Sample project to show the dependency injection with TSyringe",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "tsnd --respawn --ignore-watch node_modules ./src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xXMauricioHXx/dependency-injection.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xXMauricioHXx/dependency-injection/issues"
+  },
+  "homepage": "https://github.com/xXMauricioHXx/dependency-injection#readme",
+  "devDependencies": {
+    "@types/compression": "^1.7.2",
+    "@types/express": "^4.17.13",
+    "@types/node": "^17.0.17"
+  },
+  "dependencies": {
+    "compression": "^1.7.4",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.2",
+    "helmet": "^5.0.2",
+    "reflect-metadata": "^0.1.13",
+    "ts-node-dev": "^1.1.8",
+    "tsyringe": "^4.6.0"
+  }
+}
